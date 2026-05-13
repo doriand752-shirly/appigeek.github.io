@@ -1,0 +1,26 @@
+Dépôt GitHub Pages « utilisateur » pour AdMob
+============================================
+
+AdMob cherche app-ads.txt ici :
+  https://doriand752-shirly.github.io/app-ads.txt
+(pas sous /appy-geek/, car l’URL App Store pointe vers github.io + chemin.)
+
+1) Sur https://github.com/new créer un dépôt PUBLIC nommé exactement :
+     doriand752-shirly.github.io
+   Sans README ni .gitignore (dépôt vide).
+
+2) Dans ce dossier (doriand752-shirly.github.io), exécuter :
+
+   git init
+   git add app-ads.txt index.html .nojekyll
+   git commit -m "Add app-ads.txt for AdMob (GitHub user site root)"
+   git branch -M main
+   git remote add origin https://github.com/doriand752-shirly/doriand752-shirly.github.io.git
+   git push -u origin main
+
+3) Sur GitHub : Settings → Pages → Build and deployment → Source : Deploy from a branch
+   Branch : main, folder : / (root). Enregistrer.
+
+4) Après 1–2 minutes, ouvrir :
+     https://doriand752-shirly.github.io/app-ads.txt
+   Puis dans AdMob : Rechercher les mises à jour du fichier app-ads.txt (délai possible jusqu’à 24 h).
