@@ -1,19 +1,35 @@
-GitHub Pages — Appigeek
-=======================
+Site Appigeek — https://appigeek.github.io/ (racine)
+====================================================
 
-Site développeur (assistance + confidentialité) :
-  https://doriand752-shirly.github.io/appigeek.github.io/
+Pour que le site soit à la RACINE de appigeek.github.io (et pas sous
+doriand752-shirly.github.io/appigeek.github.io/), le dépôt doit appartenir
+au compte ou à l’organisation GitHub nommé exactement : appigeek
 
-Fichiers du site : dossier /appigeek.github.io/ dans ce dépôt
-  index.html, privacy.html, app-ads.txt
+Étapes (une seule fois)
+-----------------------
+1. Créer une organisation GitHub : https://github.com/organizations/plan
+   Nom : appigeek
 
-AdMob — app-ads.txt à la racine du domaine utilisateur :
-  https://doriand752-shirly.github.io/app-ads.txt
+2. Transférer ce dépôt vers l’org :
+   GitHub → doriand752-shirly/appigeek.github.io → Settings → Danger zone
+   → Transfer ownership → organisation appigeek
+   (Le dépôt doit s’appeler toujours appigeek.github.io)
 
-Copie également sur le site développeur :
-  https://doriand752-shirly.github.io/appigeek.github.io/app-ads.txt
+3. Dans appigeek/appigeek.github.io → Settings → Pages
+   Source : Deploy from branch → main → / (root)
 
-Dépôt projet (miroir optionnel, même URL GitHub Pages) :
-  https://github.com/doriand752-shirly/appigeek.github.io
+4. Attendre quelques minutes, puis vérifier :
+   https://appigeek.github.io/
+   https://appigeek.github.io/privacy.html
+   https://appigeek.github.io/app-ads.txt
 
-Source des contenus HTML : appy-geek/docs/ (dépôt application).
+Fichiers à la racine de ce dépôt
+---------------------------------
+  index.html      — assistance
+  privacy.html    — confidentialité
+  app-ads.txt     — AdMob
+
+Source des contenus : dépôt appy-geek, dossier docs/
+
+App Store Connect — URL support :
+  https://appigeek.github.io/
