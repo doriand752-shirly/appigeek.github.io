@@ -1,30 +1,19 @@
-Site développeur Appigeek — GitHub Pages
-=========================================
+GitHub Pages — Appigeek
+=======================
 
-Dépôt : https://github.com/doriand752-shirly/appigeek.github.io
-
-URL publique (site projet) :
+Site développeur (assistance + confidentialité) :
   https://doriand752-shirly.github.io/appigeek.github.io/
 
-Fichiers servis à la racine du site :
-  index.html      — page d’assistance (support, contact)
-  privacy.html    — politique de confidentialité
-  app-ads.txt     — fichier AdMob (vérification inventaire)
+Fichiers du site : dossier /appigeek.github.io/ dans ce dépôt
+  index.html, privacy.html, app-ads.txt
 
-AdMob — app-ads.txt
--------------------
-Si le domaine « site développeur » dans App Store Connect / AdMob pointe vers
-ce site projet, le fichier doit être accessible ici :
+AdMob — app-ads.txt à la racine du domaine utilisateur :
+  https://doriand752-shirly.github.io/app-ads.txt
+
+Copie également sur le site développeur :
   https://doriand752-shirly.github.io/appigeek.github.io/app-ads.txt
 
-Si AdMob exige le fichier à la racine du domaine utilisateur GitHub :
-  https://doriand752-shirly.github.io/app-ads.txt
-→ utiliser le dépôt séparé doriand752-shirly.github.io (voir historique du projet appy-geek).
+Dépôt projet (miroir optionnel, même URL GitHub Pages) :
+  https://github.com/doriand752-shirly/appigeek.github.io
 
-Mise à jour du contenu
-----------------------
-Les pages HTML et app-ads.txt sont maintenues dans le dépôt appy-geek sous docs/.
-Pour synchroniser : copier docs/index.html, docs/privacy.html et docs/app-ads.txt
-vers ce dépôt puis git push.
-
-GitHub Pages : Settings → Pages → Deploy from branch → main → / (root).
+Source des contenus HTML : appy-geek/docs/ (dépôt application).
