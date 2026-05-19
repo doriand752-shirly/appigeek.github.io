@@ -1,24 +1,30 @@
-Dépôt GitHub Pages « utilisateur » pour AdMob
-============================================
+Site développeur Appigeek — GitHub Pages
+=========================================
 
-Ce dossier est déjà un dépôt Git local (commit initial fait).
+Dépôt : https://github.com/doriand752-shirly/appigeek.github.io
 
-AdMob doit pouvoir lire :
+URL publique (site projet) :
+  https://doriand752-shirly.github.io/appigeek.github.io/
+
+Fichiers servis à la racine du site :
+  index.html      — page d’assistance (support, contact)
+  privacy.html    — politique de confidentialité
+  app-ads.txt     — fichier AdMob (vérification inventaire)
+
+AdMob — app-ads.txt
+-------------------
+Si le domaine « site développeur » dans App Store Connect / AdMob pointe vers
+ce site projet, le fichier doit être accessible ici :
+  https://doriand752-shirly.github.io/appigeek.github.io/app-ads.txt
+
+Si AdMob exige le fichier à la racine du domaine utilisateur GitHub :
   https://doriand752-shirly.github.io/app-ads.txt
+→ utiliser le dépôt séparé doriand752-shirly.github.io (voir historique du projet appy-geek).
 
-1) Sur https://github.com/new créer un dépôt PUBLIC nommé exactement :
-     doriand752-shirly.github.io
-   Sans README ni .gitignore (dépôt vide).
+Mise à jour du contenu
+----------------------
+Les pages HTML et app-ads.txt sont maintenues dans le dépôt appy-geek sous docs/.
+Pour synchroniser : copier docs/index.html, docs/privacy.html et docs/app-ads.txt
+vers ce dépôt puis git push.
 
-2) Dans ce dossier, exécuter :
-
-   git remote add origin https://github.com/doriand752-shirly/doriand752-shirly.github.io.git
-   git push -u origin main
-
-   (Si « remote origin already exists », utiliser : git remote set-url origin https://github.com/doriand752-shirly/doriand752-shirly.github.io.git)
-
-3) Sur GitHub : Settings → Pages → Source : Deploy from a branch → Branch « main », dossier « / (root) ».
-
-4) Vérifier https://doriand752-shirly.github.io/app-ads.txt puis dans AdMob : rechercher les mises à jour (jusqu’à ~24 h).
-
-Ce dossier est listé dans .gitignore du dépôt appy-geek : il n’est pas poussé avec l’app, c’est volontaire (second dépôt Git).
+GitHub Pages : Settings → Pages → Deploy from branch → main → / (root).
